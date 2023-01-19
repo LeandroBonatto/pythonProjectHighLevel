@@ -6,7 +6,7 @@ radius = 10
 radius, diameter = eval(input('Please enter a radius and diameter: '))
 
 # calculate area
-area = radius * radius * 3.14
+area = radius * radius * math.pi
 
 # print area
 print('The area of the circle with radius', radius, 'is', area)
