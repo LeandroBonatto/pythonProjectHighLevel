@@ -1,9 +1,10 @@
 # define radius value
-
 import math
 
 radius = 10
 # radius = float(input('Please enter a radius: '))
+# radius = int(input('Please enter a radius: '))
+
 radius = eval(input('Please enter a radius: '))
 
 # calculate area of the circle
