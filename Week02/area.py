@@ -1,6 +1,7 @@
 # define radius value
 import math
 
+radius = 10
 
 radius, diameter = eval(input('Please enter a radius and diameter: '))
 
