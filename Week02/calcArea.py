@@ -2,10 +2,14 @@
 import math
 
 radius = 10
+
+# radius = input('Please enter a radius: '))
 # radius = float(input('Please enter a radius: '))
 # radius = int(input('Please enter a radius: '))
 
-radius = eval(input('Please enter a radius: '))
+# radius = eval(input('Please enter a radius: '))
+
+radius, diameter = eval(input('Please enter a radius and diameter: '))
 
 # calculate area of the circle
 area = radius * radius * 3.14
